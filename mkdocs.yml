@@ -1,0 +1,42 @@
+site_name: Entwicklungsumgebung in WSL2
+dev_addr: localhost:8000
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js
+  - javascripts/config.js
+extra_css:
+  - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/default.min.css
+nav:
+  - Home: index.md
+  - Vorbereitung: preparations.md
+  - Entwicklungsumgebung: environment.md
+  - FAQ: faq.md
+  - Zusätzliche Konfiguration: additions.md
+theme:
+  language: de
+  logo: images/logo.svg
+  name: material
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.instant
+    - toc.integrate
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.tabbed
+  - footnotes
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.snippets
+  - abbr
+  - def_list
+  - pymdownx.smartsymbols
