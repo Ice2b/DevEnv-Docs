@@ -33,6 +33,7 @@ Dafür werden in einem zweiten Schritt die Umgebungsvariablen gesetzt, damit die
 In der administrativen PowerShell (++windows+x++) folgende Befehle ausführen:
 !!! powershell ":zap:PowerShell"
     ```ps1
+    choco install mkcert
     mkcert -install
     setx CAROOT "$(mkcert -CAROOT)"; If ($Env:WSLENV -notlike "*CAROOT*") {setx WSLENV "CAROOT/up:$Env:WSLENV"}
     ```
