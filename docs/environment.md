@@ -49,9 +49,13 @@ Die aktuellste Version kann [hier](https://www.jetbrains.com/de-de/phpstorm/down
     Dieser startet PhpStorm im Hintergrund mit dem aktuellen Verzeichnis und verwirft alle Aus- und Eingaben aus stdin/stdout.
 
 ## Grafische Umgebung vorbereiten
+!!! info "GWSL"
+    Die einfachste Variante ist wahrscheinlich [GWSL](https://opticos.github.io/gwsl/). Diese App muss nur installiert werden (aus dem Windows-Store oder von Git) und funktioniert dann direkt.
+    Hierzu sollte die [Dokumentation](https://opticos.github.io/gwsl/help.html) bei Problemen konsultiert werden.
+
 Um Fenster aus der WSL heraus anzeigen zu können, müssen noch einige Schritte vollzogen werden:
 
-* X-Server unter Windows installieren ([X410^:euro:^](https://x410.dev/), [VcXsrv](https://sourceforge.net/projects/vcxsrv/), [MobaXterm^:euro:^](https://mobaxterm.mobatek.net/))
+* X-Server unter Windows installieren ([VcXsrv](https://sourceforge.net/projects/vcxsrv/), [X410^:euro:^](https://x410.dev/), [MobaXterm^:euro:^](https://mobaxterm.mobatek.net/))
 * Server in WSL-Umgebung bekannt machen
 
 !!! wsl "WSL"

@@ -32,5 +32,6 @@ Es kann sein, dass das Verzeichnis nicht korrekt in WSL gemappt wurde oder die U
     setx CAROOT "$(mkcert -CAROOT)"; If ($Env:WSLENV -notlike "*CAROOT*") {setx WSLENV "CAROOT/up:$Env:WSLENV"}
     ```
 
+### localhost ist unter Windows nicht auf die WSL weitergeleitet
 
 --8<-- "includes/abbreviations.md"
