@@ -34,11 +34,11 @@ In WSL werden nun gcc und DDEV installiert:
     ```
 
 ## PHPStorm installieren
-Die aktuellste Version kann [hier](https://www.jetbrains.com/de-de/phpstorm/download/download-thanks.html?platform=linux) gefunden werden. Der Download kann abgebrochen werden, der Link zur Datei findet sich unter der Überschrift.
+Die aktuellste Version kann [hier](https://www.jetbrains.com/de-de/phpstorm/download/other.html) gefunden werden.
 !!! wsl "WSL"
     ```zsh
     cd /tmp
-    wget https://download.jetbrains.com/webide/PhpStorm-2020.3.3.tar.gz
+    wget <Downloadlink>
     sudo tar -xzf PhpStorm-*.tar.gz -C /opt --one-top-level=PhpStorm --strip-components=1
     sudo ln -s /opt/PhpStorm/bin/phpstorm.sh /usr/local/bin/phpstorm
     ```
