@@ -23,6 +23,7 @@ In WSL werden nun gcc und DDEV installiert:
 !!! wsl "WSL"
     ```zsh
     brew install gcc && brew install drud/ddev/ddev
+    ```
 
 Wenn ```ddev launch``` genutzt werden soll (Ausführen eines Browsers in der WSL-Umgebung), müssen noch xdg-utils installiert werden:
 
