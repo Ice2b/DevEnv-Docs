@@ -22,7 +22,13 @@ In WSL werden nun gcc und DDEV installiert:
 
 !!! wsl "WSL"
     ```zsh
-    brew install gcc && brew tap drud/ddev && brew install ddev
+    brew install gcc && brew install drud/ddev/ddev
+
+Wenn ```ddev launch``` genutzt werden soll (Ausführen eines Browsers in der WSL-Umgebung), müssen noch xdg-utils installiert werden:
+
+!!! wsl "WSL"
+    ```zsh
+    sudo apt-get update && sudo apt-get install -y xdg-utils
     ```
 
 ## ngrok installieren
